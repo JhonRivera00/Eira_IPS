@@ -1,6 +1,4 @@
 import React from "react";
-import Vector from "../assets/Imagenes/Vector.png";
-import Vector1 from "../assets/Imagenes/Vector1.png";
 import logo from "../assets/Imagenes/logo.png";
 import facebook from "../assets/Imagenes/facebook.png";
 import google from "../assets/Imagenes/google.png";
@@ -20,10 +18,10 @@ function login() {
           </div>
           <div className="position-absolute" style={{bottom:"-110px"}} >
 
-          <span><a className="text-decoration-none text-info mx-3" href="#">Terminos y condiciones</a></span>
-          <span><a className="text-decoration-none text-info mx-3" href="#">Politica de Privacidad</a></span>
-          <span><a className="text-decoration-none text-info mx-3" href="#">Contactanos</a></span>
-          <span><a className="text-decoration-none text-info mx-3" href="#">Version</a></span>
+          <span><a className="text-decoration-none text-info mx-3 fw-bold" href="#">Terminos y condiciones</a></span>
+          <span><a className="text-decoration-none text-info mx-3 fw-bold" href="#">Politica de Privacidad</a></span>
+          <span><a className="text-decoration-none text-info mx-3 fw-bold" href="#">Contactanos</a></span>
+          <span><a className="text-decoration-none text-info mx-3 fw-bold" href="#">Version</a></span>
           </div>
         </div>
         </div>
@@ -38,17 +36,17 @@ function login() {
           {/* Inicio de Sesion */}
           <div className="container w-100  my-5">
             <div className="row">
-               <div className="col-10">
+               <div className="col-6 col-md-10 p-2">
                <button className="btn btn-login w-100 my-1">
-                  <div className="row align-items-center">
+                  <div className="row w-100 justify-content-center">
                     <div className="col-3">
                       <img src={google} width={32} alt="Logo_facebook"></img>
                     </div>
-                      <div className="col-9 col-md-9 text-center d-none d-lg-block">Inicia sesion con Google</div>
+                      <div className="col-9 col-md-9 text-center d-none d-sm-block">Inicia sesion con Google</div>
                   </div>
                 </button>
                </div>
-               <div className="col-2 pe-2">
+               <div className="col-6 col-md-2 p-2">
                 <button className="btn btn-login w-100 my-1">
                   <div className="row w-100 justify-content-center">
                     <div className="col-3 me-2 ">

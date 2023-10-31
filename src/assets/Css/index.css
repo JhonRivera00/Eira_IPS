@@ -4,11 +4,6 @@ body {
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
-.bg{
-  background-image: url(../Imagenes/fondo.jpg);
-  background-position: center center;
-}
-
 .btn-login{
   background:#e9e9ff !important;
   color: #046cbb !important;
