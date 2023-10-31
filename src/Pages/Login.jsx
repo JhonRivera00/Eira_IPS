@@ -6,32 +6,31 @@ import google from "../assets/Imagenes/google.png";
 
 function login() {
   return (
-<body className="login">
+<body className="login" style={{height:"100vh"}}>
 
-    <div className="container pt-5 rounded-5">
-      <div className="row align-items-stretch">
-        <div className="col-lg-6 d-none d-lg-block " >
+    <div className="container pt-lg-5 pt-4 rounded-5 h-100">
+      <div className="row align-items-stretch h-100">
+        <div className="col-lg-6 d-none d-lg-block pb-5 " >
         <div className="position-relative h-100">
           <div className="text-white w-75">
             <p className="fs-3 fw-bold">Algun texto</p>
             <p className="fs-4 ">Lorem Ipmsum is simply</p>
             <p className="fs-6 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
           </div>
-          <div className="position-absolute" style={{bottom:"-110px"}} >
+          <div className="position-absolute  text-center" style={{bottom:"0%"}} >
 
-          <span><a className="text-decoration-none text-info mx-3 fw-bold" href="#">Terminos y condiciones</a></span>
-          <span><a className="text-decoration-none text-info mx-3 fw-bold" href="#">Politica de Privacidad</a></span>
-          <span><a className="text-decoration-none text-info mx-3 fw-bold" href="#">Contactanos</a></span>
-          <span><a className="text-decoration-none text-info mx-3 fw-bold" href="#">Version</a></span>
+          <span><a className="text-decoration-none text-black-50 mx-3 fw-bold d-inline-block" href="#">Terminos y condiciones</a></span>
+          <span><a className="text-decoration-none text-black-50 mx-3 fw-bold d-inline-block" href="#">Politica de Privacidad</a></span>
+          <span><a className="text-decoration-none text-black-50 mx-3 fw-bold d-inline-block" href="#">Contactanos</a></span>
+          <span><a className="text-decoration-none text-black-50 mx-3 fw-bold d-inline-block mt-lg-3" href="#">Version</a></span>
           </div>
         </div>
         </div>
-        <div className="col-lg-6 col-12 justify-content-lg-end justify-content-center d-flex">
-          <div className="w-75 p-5 bg-white rounded-5 shadow">
-
-         
+        <div className="col-lg-6 col-12">
+          <div className="d-flex justify-content-lg-end justify-content-center">
+          <div className="w-75 p-5 bg-white rounded-5 shadow ">
           <div className="text-center">
-            <img className="w-50" src={logo} width={100}></img>
+            <img className="w-75" src={logo} width={100}></img>
           </div>
 
           {/* Inicio de Sesion */}
@@ -40,15 +39,15 @@ function login() {
                <div className="col-6 col-md-10 p-2">
                <button className="btn btn-login w-100 my-1">
                   <div className="row w-100 justify-content-center">
-                    <div className="col-3">
+                    <div className="col-3 col-xs-6 ">
                       <img src={google} width={32} alt="Logo_facebook"></img>
                     </div>
-                      <div className="col-9 col-md-9 text-center d-none d-sm-block">Inicia sesion con Google</div>
+                      <div className="col-9 col-xs-6  text-center d-none d-md-block">Inicia sesion con Google</div>
                   </div>
                 </button>
                </div>
                <div className="col-6 col-md-2 p-2">
-                <button className="btn btn-login w-100 my-1">
+                <button className="btn btn-login w-100 my-1 px-lg-4">
                   <div className="row w-100 justify-content-center">
                     <div className="col-3 me-2 ">
                       <img src={facebook} width={32} alt="Logo_facebook"></img>
@@ -85,6 +84,7 @@ function login() {
             </div>
           </form>
 
+          </div>
           </div>
         </div>
       </div>
