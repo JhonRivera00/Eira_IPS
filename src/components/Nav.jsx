@@ -5,17 +5,16 @@ import { Link, Outlet } from "react-router-dom";
 function Nav() {
   return (
     <>
-    <nav class="navbar navbar-light bg-verde  ">
-      <Link to={"/"} class="navbar-brand fw-bold fs-2  mx-4">
-        Eira Ips
+    <nav class="navbar navbar-light ">
+      <Link to={"/inicio"} class="logo-nav navbar-brand fw-bold ms-3">
       </Link>
-      <div class="">
+      <div class="VectorNav">
         <Link
-          to={"/login"}
-          class="btn bg-white   p-2  mx-5 my-sm-0 fw-bold"
+          to={"/"}
+          class="btn-out btn"
           type="submit"
         >
-          Iniciar Sesion 🟢
+          Sign Up ♦️
         </Link>
       </div>
     </nav>

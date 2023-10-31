@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
+  font-family: 'popins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,4 +21,86 @@
 .btn-inicio-sesion{
   background:#046cbb !important ;
   color: white !important;
+}
+
+
+.VectorNav{
+  background: url('../Imagenes/VectorNav.png') no-repeat;
+  background-size: contain;
+  align-items: center;
+  width: 250px;
+  height: 80px;
+}
+.btn-out{
+  background: #046cbb !important;
+  height: 30px;
+  color: black !important;
+  background-color: aliceblue;
+  border-color: aliceblue;
+  border-radius: 50px;
+}
+.logo-nav{
+  background: url('../Imagenes/logo2.png') no-repeat;
+  background-size: contain;
+  align-items: center;
+  width: 40px;
+  height: 80px;
+}
+
+/* Sidebar */
+:root{
+  /* Colors */
+  --body-color: #E4E9F7;
+  --sidebar-color: #FFFFFF;
+  --primary-color: #695CFE;
+  --primary-color-light: #F6F5FF;
+  --togle-color: #DDD;
+  --text-color:#707070;
+
+  /* Transitions */
+
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+}
+
+.body_inicio{
+  height: 100vh;
+  background-color: var(--body-color);
+}
+
+
+/* === Resuable Css === */
+
+.sidebar .text{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sidebar .image{
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+}
+
+/* === Sidebar === */
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  padding: 10px 14px;
+  background-color: var(--sidebar-color);
+}
+.sidebar .img-text img{
+  width: 30px;
+  border-radius: 6px;
+}
+
+.sidebar header .img-text{
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
 }
