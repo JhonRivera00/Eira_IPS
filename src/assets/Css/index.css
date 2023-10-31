@@ -1,4 +1,10 @@
-body {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login{
+  margin-top: 0px;
   background: url('../Imagenes/Vector.png') no-repeat, url('../Imagenes/Vector1.png') no-repeat;
   background-size: contain;
   font-family: Arial, Helvetica, sans-serif !important;

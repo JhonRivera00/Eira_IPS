@@ -1,9 +1,8 @@
-import Login from './Pages/Login'
-import './assets/Css/index.css';
+import AppRoutes from './Routes/AppRoutes';
 function App() {
   return (
     <>
-      <Login/>
+      <AppRoutes/>
     </>
   )
 }
