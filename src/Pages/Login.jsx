@@ -3,11 +3,12 @@ import logo from "../assets/Imagenes/logo.png";
 import facebook from "../assets/Imagenes/facebook.png";
 import google from "../assets/Imagenes/google.png";
 
+
 function login() {
   return (
-<body>
+<body className="login">
 
-    <div className="container mt-5 rounded-5">
+    <div className="container pt-5 rounded-5">
       <div className="row align-items-stretch">
         <div className="col-lg-6 d-none d-lg-block " >
         <div className="position-relative h-100">
