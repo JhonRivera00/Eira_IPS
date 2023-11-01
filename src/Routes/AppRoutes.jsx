@@ -9,9 +9,8 @@ function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Login />} />
-      <Route path="/ini" element={<Nav />}></Route>
       <Route path="inicio" element={<Sidebar />}>
-        <Route index element={<Inicio />}></Route>
+        {/* <Route index element={<Inicio />}></Route> */}
       </Route>
     </Routes>
   );

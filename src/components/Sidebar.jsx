@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/Imagenes/logo2.png";
 import Inicio from "../Pages/Inicio";
 import { Link, Outlet } from "react-router-dom";
+import Nav from "./Nav";
 
 function Sidebar() {
   const [isToggle, setIsToggle] = useState(false);
@@ -12,6 +13,7 @@ function Sidebar() {
 
   return (
     <>
+      <Nav></Nav>
       <nav className={`sidebar ${isToggle ? "close" : ""}`}>
         <header>
           <div className="img-text">

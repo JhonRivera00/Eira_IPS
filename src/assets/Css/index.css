@@ -24,16 +24,16 @@
   color: white !important;
 }
 
-
+/* 
 .VectorNav {
   background: url('../Imagenes/VectorNav.png') no-repeat;
   background-size: contain;
   align-items: center;
   width: 250px;
   height: 80px;
-}
+} */
 
-.btn-out {
+/* .btn-out {
   background: #046cbb !important;
   height: 30px;
   color: black !important;
@@ -48,7 +48,7 @@
   align-items: center;
   width: 40px;
   height: 80px;
-}
+} */
 
 /* Sidebar */
 :root {
@@ -233,7 +233,7 @@ header .image-text .header-text {
 
 .home{
   background-color: var(--primary-color-light);
-  height: 100vh;
+  height: calc(100vh - 50px);
   left: 250px;
   width: calc(100% - 250px);
   position: relative;
@@ -251,6 +251,39 @@ header .image-text .header-text {
 .sidebar.close  ~ .home{
   left: 85px;
   width: calc(100% - 85px);
+}
+
+.NavContain{
+  position: relative;
+  top: 0;
+  height: 50px;
+  width: 100%;
+}
+
+.Vector{
+  position: absolute;
+  top: 0;
+  left: calc(100% - 251px);
+  height: 50px;
+  width: 250px;
+}
+
+.LogOut{
+  position: absolute;
+  top: 20%;
+  left: calc(100% - 170px);
+  height: 28px;
+  width: 150px;
+  border-radius: 30px;
+  background: var(--body-color);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-color);
 }
 
 
