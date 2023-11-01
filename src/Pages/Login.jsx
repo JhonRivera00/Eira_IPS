@@ -42,7 +42,7 @@ function login() {
                     <div className="col-3 col-xs-6 ">
                       <img src={google} width={32} alt="Logo_facebook"></img>
                     </div>
-                      <div className="col-9 col-xs-6  text-center d-none d-md-block">Inicia sesion con Google</div>
+                      <div className="col-9 col-xs-6 m-auto text-center d-none d-md-block">Inicia sesion con Google</div>
                   </div>
                 </button>
                </div>
