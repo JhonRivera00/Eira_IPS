@@ -19,10 +19,10 @@ function login() {
           </div>
           <div className="position-absolute  text-center" style={{bottom:"0%"}} >
 
-          <span><a className="text-decoration-none text-black-50 mx-3 fw-bold d-inline-block" href="#">Terminos y condiciones</a></span>
-          <span><a className="text-decoration-none text-black-50 mx-3 fw-bold d-inline-block" href="#">Politica de Privacidad</a></span>
-          <span><a className="text-decoration-none text-black-50 mx-3 fw-bold d-inline-block" href="#">Contactanos</a></span>
-          <span><a className="text-decoration-none text-black-50 mx-3 fw-bold d-inline-block mt-lg-3" href="#">Version</a></span>
+          <span><a className="text-decoration-none text-black-50 mx-2 fw-bold d-inline-block" href="#">Terminos y condiciones</a></span>
+          <span><a className="text-decoration-none text-black-50 mx-2 fw-bold d-inline-block" href="#">Politica de Privacidad</a></span>
+          <span><a className="text-decoration-none text-black-50 mx-2 fw-bold d-inline-block" href="#">Contactanos</a></span>
+          <span><a className="text-decoration-none text-black-50 mx-2 fw-bold d-inline-block mt-lg-3" href="#">Version</a></span>
           </div>
         </div>
         </div>
