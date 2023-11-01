@@ -1,9 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Inicio from "../Pages/Inicio";
-import Nav from "../components/Nav";
-import Login from "../Pages/Login";
 import Sidebar from "../components/Sidebar";
+import Login from '../Pages/Login';
 
 function AppRoutes() {
   return (

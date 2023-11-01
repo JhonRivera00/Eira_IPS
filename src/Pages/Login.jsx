@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/Imagenes/logo.png";
 import facebook from "../assets/Imagenes/facebook.png";
 import google from "../assets/Imagenes/google.png";
+import { Link } from "react-router-dom";
 
 
 function login() {
@@ -78,9 +79,9 @@ function login() {
             </div>
 
             <div className="d-grid">
-              <button type="submit" className="btn btn-inicio-sesion">
+              <Link to="/inicio" type="submit" className="btn btn-inicio-sesion">
                 Iniciar Sesion
-              </button>
+              </Link>
             </div>
           </form>
 
